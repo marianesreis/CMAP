@@ -1,5 +1,4 @@
 # the Compound Maximum a Posteriori (CMAP) algorithm
-R codes to classify a remote sensing time-series into land cover trajectories using the Compound Maximum a Posteriori (CMAP) algorithm.
 
 
 CMAP incorporates the knowledge of land cover dynamics and the information of multi-temporal data sets to produce only valid land cover trajectories using a global generative classification approach and simple inputs. Consider that the user wants to classify a image time-series into land cover classes. In this time-series, each image corresponds to one time of interest to be classified. To use CMAP, the user needs:
