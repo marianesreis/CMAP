@@ -21,3 +21,21 @@ M. S. Reis, L. V. Dutra, M. I. S. Escada and S. J. S. Sant’anna, "Avoiding Inv
 
 
 Please check the following steps for a demonstration input dataset and example of R script to use CMAP.
+
+---
+
+This example aims to classify a short remote sensing time-series into a land cover classification time series. We will classify three images from different sensors (ALOS/PALSAR, Landsat 5/TM, and EO-1/ALI) and dates (2008, 2010, and 2013). We will also consider different legends for each date. Note that the training and classification process are done in independent (but cross-calibrated) datasets, which allows for the use of samples collected in images from other sites/dates than the one being classified.
+
+For this example, we will consider that you have installed a suitable version of R and the package "raster". This example also considers the use of the "example_dataset" and the R codes "MainFunctions.R" and "AuxiliaryFunctions.R". We further consider that the working directory is set to a folder containing these data.
+
+
+First, load the necessary package and the R codes:
+```{r}
+library(raster)
+
+source("MainFunctions.R")
+
+source("AuxiliaryFunctions.R")
+
+```
+
