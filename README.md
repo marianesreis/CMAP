@@ -1,4 +1,4 @@
-# CMAP
+# the Compound Maximum a Posteriori (CMAP) algorithm
 R codes to classify a remote sensing time-series into land cover trajectories using the Compound Maximum a Posteriori (CMAP) algorithm.
 
 These codes are under revision and being made public accordingly. Preliminary versions of codes and input datasets may be made available conditioned to direct and reasonable requests. Please either create an Issue (https://github.com/marianesreis/CMAP/issues) or contact me on mariane.reis@inpe.br for more information.
