@@ -9,9 +9,9 @@ M. S. Reis, L. V. Dutra, M. I. S. Escada and S. J. S. Sant’anna, "Avoiding Inv
 
 CMAP incorporates the knowledge of land cover dynamics and the information of multi-temporal data sets to produce only valid land cover trajectories using a global generative classification approach and simple inputs. Consider that the user wants to classify a image time-series into land cover classes. In this time-series, each image corresponds to one time of interest to be classified. To use CMAP, the user needs:
 
-1) The images to be classified in each date (observation of each classe at each time) - the present version accepts a multilayer raster (each channel one band/polariztion) for each date;
-2) The labeled samples of land cover to be classified in each time - the present version accepts the use of samples collected in a image different than the one being classified, herein referred as base images. This dataset is characterized by a pair of raster files containing the base images and a raster depicting the index for each class (0 if not a sample). The user can use more than one set of base images to collect samples for each date and vary the legend for each class;
-3) The a priori probability of each land cover trajectory. In the present version of the algorithm we consider the use of matrices depicting the likelihood of the transitions in each consecutive two dates to derive the trajectory probability.
+1) The images to be classified in each date (observation of each classe at each time);
+2) The labeled samples of land cover to be classified in each time;
+3) The a priori probability of each land cover trajectory.
 
 The CMAP classification was organized in three steps, to allow for the easy modification of the process:
 
