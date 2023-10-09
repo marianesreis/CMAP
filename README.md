@@ -21,7 +21,7 @@ M. S. Reis, L. V. Dutra, M. I. S. Escada, and S. J. S. Sant’anna, "Avoiding In
 Please check the HTML in the files for a demonstration of the input dataset and an example of an R script to use CMAP.
 
 
-Note: in CMAP, we aim to classify the trajectory $s=\{\omega^{k_1}_{1},..., \omega^{k_t}_{t},...,\omega^{k_T}_{T}\}$. Here:
+Note: in CMAP, we aim to classify the trajectory $s=\(\omega^{k_1}_{1},..., \omega^{k_t}_{t},...,\omega^{k_T}_{T}\)$. Here:
 
 - $T$ = the length of the time sequence;
 - $\omega^{k_t}_{t} \in \Omega_t = \{\omega^{k_1}_t, ..., \omega^{k_t}_{t},... \omega^{K_t}_{t} \}$;
