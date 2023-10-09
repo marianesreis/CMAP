@@ -20,3 +20,20 @@ M. S. Reis, L. V. Dutra, M. I. S. Escada, and S. J. S. Sant’anna, "Avoiding In
 
 
 Please check the HTML in the files for a demonstration of the input dataset and an example of an R script to use CMAP.
+
+Note: in CMAP, we aim to classify the trajectory $s=\{\omega^{k_1}_{1},..., \omega^{k_t}_{t},...,\omega^{k_T}_{T}\}$.
+
+Here:
+
+- $T$ = the length of the time sequence;
+- $\omega^{k_t}_{t} \in \Omega_t = \{\omega^{k_1}_t, ..., \omega^{k_t}_{t},... \omega^{K_t}_{t} \}$;
+- $\omega^{k_t}_t$ = the actual class at time position $t$ of $s$;
+- $k_t$ = {the indicator of the class in the set} $\Omega_t$ that holds the $K_t$ possible classes on time $t$;
+- $s\in \boldsymbol{\Omega} =\Omega_1 \otimes ... \otimes \Omega_t \otimes ... \otimes \Omega_T$;
+- $\otimes$ = the Cartesian Product of sets.
+- $\vec{X} = \{\vec{x_1},..., \vec{x_t},...,\vec{x_T}\}$ is a given observation vector that contains the $T$ temporal observations that can indicate the trajectory composition (e.g., the digital numbers in correspondent pixels in {a given set of images $\boldsymbol{X}$), and $\vec{X} \in \boldsymbol{X}$};
+- $\hat{s} = \arg_s \max (P(\vec{X}|s) \times P(s), s \in \boldsymbol{\Omega}, \vec{X} \in \boldsymbol{X})$;
+- $P(s)$ = the \textit{a priori} probability of a {trajectory} $s$;
+- $P(\vec{X}|s) =  P(\vec{x_1}|\omega^{k_1}_{1}) \times ...\times P(\vec{x_t}|\omega^{k_t}_{t}) \times ... \times P(\vec{x_T}|\omega^{k_T}_{T}).$ 
+(As we suppose that the observations are independent in time and that each one depends only on the observed object.)
+
