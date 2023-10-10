@@ -13,9 +13,8 @@ The CMAP classification was organized in three steps, to allow for the easy modi
 2) Calculation of the a priori probability of trajectories;
 3) Computation of CMAP and classification of results.
 
-These codes are under revision and being made public accordingly. Preliminary versions of codes and input datasets may be made available conditioned to direct and reasonable requests. Please create an Issue (https://github.com/marianesreis/CMAP/issues) or contact me at mariane.reis@inpe.br for more information.
+These codes are under revision and being made public accordingly. Please check the HTML file "How_to_CMAP" in the files for a demonstration of the input dataset and an example of an R script to use CMAP. Please create an Issue (https://github.com/marianesreis/CMAP/issues) or contact me at mariane.reis@inpe.br for more information and/or suggestions.
 
 When using the algorithm, please cite the original paper:
 M. S. Reis, L. V. Dutra, M. I. S. Escada, and S. J. S. Sant’anna, "Avoiding Invalid Transitions in Land Cover Trajectory Classification With a Compound Maximum a Posteriori Approach," in IEEE Access, vol. 8, pp. 98787-98799, 2020, doi: 10.1109/ACCESS.2020.2997019.
 
-Please check the HTML file "How_to_CMAP" in the files for a demonstration of the input dataset and an example of an R script to use CMAP.
