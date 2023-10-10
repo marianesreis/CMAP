@@ -18,4 +18,4 @@ These codes are under revision and being made public accordingly. Preliminary ve
 When using the algorithm, please cite the original paper:
 M. S. Reis, L. V. Dutra, M. I. S. Escada, and S. J. S. Sant’anna, "Avoiding Invalid Transitions in Land Cover Trajectory Classification With a Compound Maximum a Posteriori Approach," in IEEE Access, vol. 8, pp. 98787-98799, 2020, doi: 10.1109/ACCESS.2020.2997019.
 
-Please check the HTML in the files for a demonstration of the input dataset and an example of an R script to use CMAP.
+Please check the HTML file "How_to_CMAP" in the files for a demonstration of the input dataset and an example of an R script to use CMAP.
